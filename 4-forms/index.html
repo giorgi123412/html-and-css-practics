@@ -8,62 +8,54 @@
 </head>
 <body>
     <form accept="/">
+        <h1>sign in</h1>
+        <hr>
+        <p>Full name</p>
         <p>
             <label>
-               name <input type="text" name="name" required>
+               <input type="text" name="name" required>
             </label>
         </p>
+        <p>email address</p>
         <p>
             <label>
-                E-mail <input type="email" name="email" required>
+               <input type="email" name="email" required>
             </label>
         </p>
+        <p>comunication</p>
         <p>
             <label>
-                Password <input type="password" name="password" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                number <input type="number" name="number" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                data <input type="date" name="data" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                time <input type="time" name="time" required>
-            </label>
-        </p>
-        <p>
-            <label>
-                    Color <input type="color" name="color" required>
+                <input type="checkbox"  name="email">email
             </label>
             
         </p>
-        <p>
-            <label>
-                    range <input type="range" name="range" required>
-            </label>
-            
-        </p>
-        <p>
-            <label>
-                description <textarea name="textarea" required></textarea>
-            </label>
-        </p>
-        <p>
-            <label>
-                    <input type="submit" value="submit">
-            </label>
-            
+            <p>
                 <label>
-                        <input type="reset" value="clear">
+                    <input type="checkbox"  name="sms">sms
                 </label>
-                
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox"  name="phone">phone
+                </label>
+            </p>
+            <p>user group</p>
+            <p>
+                <label>
+                    <input type="radio" name="user" value="sales person">sales person
+                </label>
+                <label>
+                    <input type="radio" name="user" value="customer">customer
+                </label>
+            </p>
+            <p><span>please select user group</span></p>
+            <hr>
+            <p>
+                <label>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="cancel">
+                </label>
             </p>
     </form>
 </body>
