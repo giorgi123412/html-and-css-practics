@@ -7,45 +7,46 @@
     <title>4-forms</title>
 </head>
 <body>
-    <form accept="/" method="POST">
+    <form accept="/">
         <p>
             <label>
-                Phone <input type="number" name="number">
+                Phone <input type="number" name="number" required>
             </label>
         </p>
         <p>
             <label>
-                E-mail <input type="text" name="text">
+                E-mail <input type="email" name="text" required>
             </label>
         </p>
         <p>
             <label>
-                Password <input type="password" name="password">
+                Password <input type="password" name="password" required>
             </label>
         </p>
         <p>
             <label>
-                Config Password <input type="password" name="password">
+                Config Password <input type="password" name="password" required>
             </label>
         </p>
         <p>
             <label>
-                Nickname <input type="text" name="text">
+                Nickname <input type="text" name="text" required>
             </label>
         </p>
         <p>
             Habitual Residence
             <select name="select" id="select">
-                <option value="">Zhejiang</option>
-                <option value="">Hangzhou</option>
-                <option value="">West Lake</option>
+                <!-- <option value="">Zhejiang/Hangzhou/West Lake </option> -->
+                <option value="Zhejiang">Zhejiang</option>
+                <option value="Hangzhou">Hangzhou</option>
+                <option value="West Lake">West Lake</option>
             </select>
         </p>
         <p>
             <input type="checkbox"> i have read the agreement
         </p>
         <p>
-            <input type="submit" value="registr">
+            <input type="submit" name="registr" value="registr">
         </p>
     </form>
 </body>
