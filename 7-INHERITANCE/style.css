@@ -1,0 +1,37 @@
+div{
+    text-align: center;
+}
+div > h1 {
+    font-size: 40px;
+    color: orange;
+}
+.button{
+    margin: 15px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.Primary{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.Default{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #a5a5a5;
+    color: black;
+}
+.Dashed{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px dashed #a5a5a5;
+    color: black;
+}
+.Danger{
+    border-radius: 5px;
+    background-color: #d8d7d7;
+    border: 1px solid #a5a5a5;
+    color: red;
+}
+
