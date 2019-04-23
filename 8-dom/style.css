@@ -1,0 +1,22 @@
+.table{
+    width: 1200px;
+    display: table-row;
+}
+.row{
+    width: 260px;
+    display: block;
+    border: 3px solid #eeeeee;
+    display: table;
+    box-sizing: border-box;
+    margin: 20px;
+    display: table-cell;
+}
+.row > img{
+    width: 254px;
+}
+.row > h3 {
+    padding: 0px 30px;
+}
+.row > p {
+    padding: 0px 30px;
+}
