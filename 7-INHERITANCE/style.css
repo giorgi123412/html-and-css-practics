@@ -34,4 +34,9 @@ div > h1 {
     border: 1px solid #a5a5a5;
     color: red;
 }
-
+.small{
+    padding: 15px 20px;
+}
+.big{
+    padding: 30px 40px;
+}
