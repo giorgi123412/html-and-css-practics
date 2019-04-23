@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+}
+header h1{
+    text-align: center;
+    color: blue;
+}
+#title{
+    font-size: 12px;
+    text-align: left;
+}
+section > a > h2 {
+    text-align: center;
+    border: 5px solid blueviolet;
+    font-size: 20px;
+}
+section:first-child {
+    color: green;
+    font-size: 16px;
+}
+.text{
+    font-size: 18px;
+    color: aliceblue;
+}
+.text:hover{
+    color: black;
+}
