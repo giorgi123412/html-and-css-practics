@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+.title {
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+img:hover{
+    width: 350px;
+    height: 250px;
+    border: 25px solid red;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+#name{
+    font-size: 22px;
+    color: aqua;
+}
