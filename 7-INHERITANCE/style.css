@@ -40,3 +40,6 @@ div > h1 {
 .big{
     padding: 30px 40px;
 }
+.ghost{
+    background-color: transparent;
+}
