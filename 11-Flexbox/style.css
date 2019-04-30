@@ -13,19 +13,39 @@
 }
 .cell{
     min-height: 100px;
-    background: green;
-    margin: 10px;
+    /* background: green; */
+    border: 5px solid black;
 }
 .col-1{
     flex-grow: 1;
 }
 .col-2{
     flex-grow: 2;
-    width: 220px;
 }
 .col-3{
     flex-grow: 3;
 }
-.new{
-    width: 40px;
+.new-1{
+    height: 210px;
 }
+.new-2{
+    height: 50px;
+}
+.new-3{
+    height: 0px;
+}
+.bg-1{
+   background: #feeda8;
+}
+.bg-2{
+    background: #000000;
+ }
+ .bg-3{
+    background: #85a9dd;
+ }
+ .bg-4{
+    background: #fecd06;
+ }
+ .bg-5{
+    background: #c73737;
+ }
