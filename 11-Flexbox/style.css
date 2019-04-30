@@ -1,0 +1,27 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.cell{
+    min-height: 50px;
+    background: green;
+    border: 5px solid black;
+}
+.col-1{
+    flex-grow: 1;
+}
+.col-2{
+    flex-grow: 2;
+}
+.col-3{
+    flex-grow: 3;
+}
