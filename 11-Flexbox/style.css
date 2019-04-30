@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 .cell{
-    min-height: 50px;
+    min-height: 100px;
     background: green;
     border: 5px solid black;
 }
