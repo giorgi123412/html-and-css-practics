@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.grid-container{
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "one two three"
+                         "for five six";
+    grid-template-columns:1fr 180px 1fr;
+    grid-template-rows:1fr 360px;
+    grid-gap: 10px;
+    background: black;
+}
+.one{
+    display: grid;
+    grid-template-areas: "one-one one-two one-three"
+                         "one-one one-for one-five"
+                         "one-six one-seven one-five";
+    grid-template-columns:1fr 75px 1fr;
+    grid-template-rows:50px 1fr 1fr;
+    grid-gap:5px;
+}
+.one-one{
+    grid-row: span 2;
+    background: #ffffff;
+}
+.one-two{
+    background: #ffeea9;
+}
+.one-three{
+    background: #ffeea9;
+}
+.one-for{
+    background: #ffeea9;
+}
+.one-five{
+    background: #000000;
+    grid-row: span 2;
+}
+.one-six{
+    background: #ffeea9;
+}
+.one-seven{
+    background: #ffffff;
+}
+.two{
+    display: grid;
+    grid-template-areas: "two-one"
+                         "two-two";
+    grid-template-rows:50px 1fr;
+    grid-gap:5px;
+}
+.two-one{
+    background: #ffffff;
+}
+.two-two{
+    background: #86aade;
+}
+.three{
+    display: grid;
+    grid-template-areas: "three-one three-two three-three three-for"
+                         "three-five three-two three-three three-for"
+                         "three-six three-two three-three three-for";
+    grid-template-columns:55px 30px 1fr 1fr;
+    grid-template-rows:1fr 30px 1fr;
+    grid-gap:5px;
+}
+.three-one{
+    background: #ffeea9;
+}
+.three-two{
+    background: #ffffff;
+    grid-row: span 2;
+}
+.three-three{
+    background: #c63636;
+    grid-row: span 3;
+}
+.three-for{
+    background: #ffeea9;
+    grid-row: span 3;
+}
+.three-five{
+    background: #fecd06;
+}
+.three-six{
+    background: #ffeea9;
+    grid-column: span 2;
+}
+.for{
+    display: grid;
+    grid-template-areas: "for-one for-one for-one"
+                         "for-two for-two for-two"
+                         "for-three for-three for-three"
+                         "for-for for-five for-six"
+                         "for-for for-seven for-six";
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 70px 30px 130px;
+    grid-gap:5px;
+}
+.for-one{
+    background: #ffeea9;
+    grid-column: span 3;
+}
+.for-two{
+    background: #86aade;
+    grid-column: span 3;
+}
+.for-three{
+    background: #000000;
+    grid-column: span 3;
+}
+.for-for{
+    background: #ffffff;
+    grid-row: span 2;
+}
+.for-five{
+    background: #c73638;
+}
+.for-six{
+    background: #ffeea9;
+    grid-row: span 2;
+}
+.for-seven{
+    background: #fecd06;
+}
+.five{
+    display: grid;
+    grid-template-areas: "five-one five-two"
+                         "five-one five-three"
+                         "five-for five-for";
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:30px 1fr 165px;
+    grid-gap:5px;
+}
+.five-one{
+    background: #ffeea9;
+    grid-row: span 2;
+}
+.five-two{
+    background: #ffeea9;
+}
+.five-three{
+    background: #fecd06;
+}
+.five-for{
+    grid-column: span 2;
+    background: #ffffff;
+}
+.six{
+    display: grid;
+    grid-template-areas: "six-one six-one"
+                         "six-three six-for"
+                         "six-six six-seven"
+                         "six-six six-eight";
+    grid-template-columns:60px 1fr;
+    grid-template-rows:105px 1fr 1fr 1fr;
+    grid-gap:5px;
+}
+.six-one{
+    grid-column: span 2;
+    display: grid;
+    grid-template-areas: "six-one-one six-one-two six-three"
+                         "six-one-for six-one-five six-one-six";
+    grid-template-columns:1fr 50px 45px;
+    grid-template-rows:1fr 1fr;
+    grid-gap:5px;
+}
+.six-one-one{
+    background: #000000;
+}
+.six-one-two{
+    background:#000000 ;
+}
+.six-one-three{
+    background: #ffffff;
+}
+.six-one-for{
+    background: #fdeba9;
+}
+.six-one-five{
+    background: #fdeba9;
+}
+.six-one-six{
+    background: #fdeba9;
+}
+.six-two{
+    background: #c73737;
+    grid-row: span 2;
+}
+.six-three{
+    background: #fdcc05;
+}
+.six-for{
+    background: #86aade;
+}
+.six-five{
+    background: #fdeba9;
+    grid-column: span 2;
+}
